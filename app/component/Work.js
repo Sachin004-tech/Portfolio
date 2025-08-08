@@ -60,7 +60,7 @@ const Work = ({isDarkMode}) => {
       whileInView={{opacity:1}}
       transition={{duration: 0.5, delay:1.1}}
       // href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-[var(--color-lightHover)] duration-500 '>
-      href="" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-[var(--color-lightHover)] duration-500 dark:text-white dark:border-white dark:hover:bg-[var(--color-darkHover)]'>
+      href="#work" className='w-max flex items-center justify-center gap-2 text-gray-700 border-[0.5px] border-gray-700 rounded-full py-3 px-10 mx-auto my-20 hover:bg-[var(--color-lightHover)] duration-500 dark:text-white dark:border-white dark:hover:bg-[var(--color-darkHover)]'>
         Show more <Image src={isDarkMode ? assets.right_arrow_bold_dark : assets.right_arrow_bold} alt='right arrow' className='w-4'/>
       </motion.a>
     </motion.div>
