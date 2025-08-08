@@ -55,7 +55,7 @@ const Contact = () => {
       initial = {{opacity:0, y: -20}}
       whileInView={{opacity:1, y: 0}}
       transition={{duration: 0.5, delay:0.7}}
-      className='text-center max-w-2xl mx-auto mt-5 mb-12 text-ovo'>I'd love to hear from you! If you have any questions, comments, or feedback, please use the form below.</motion.p>
+      className='text-center max-w-2xl mx-auto mt-5 mb-12 text-ovo'>I&apos;d love to hear from you! If you have any questions, comments, or feedback, please use the form below.</motion.p>
 
       <motion.form 
       initial = {{opacity:0}}

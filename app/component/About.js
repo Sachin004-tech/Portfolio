@@ -34,7 +34,7 @@ const About = ({isDarkMode}) => {
       whileInView={{opacity:1, scale:1}}
       transition={{duration: 0.6}}
          className='w-64 sm:w-80 rounded-3xl max-w-none'>
-            <Image src={assets.profile} alt='user' className='w-full rounded-3xl'/>
+            <Image src={assets.profile1} alt='user' className='w-full rounded-3xl'/>
         </motion.div>
 
         <motion.div
@@ -42,7 +42,7 @@ const About = ({isDarkMode}) => {
       whileInView={{opacity:1}}
       transition={{duration: 0.6, delay:0.8}}
         className='flex-1'>
-            <p className='mb-10 max-w-2xl ovo-text'>I’m a passionate Full-Stack Developer skilled in building responsive and scalable web applications using modern technologies like React, Node.js, and MongoDB. Currently enhancing my DSA (Data Structures and Algorithms) skills to improve my problem-solving abilities. I love turning ideas into real-world projects and continuously learning new things.</p>
+            <p className='mb-10 max-w-2xl ovo-text'>I&apos;m a passionate Full-Stack Developer skilled in building responsive and scalable web applications using modern technologies like React, Node.js, and MongoDB. Currently enhancing my DSA (Data Structures and Algorithms) skills to improve my problem-solving abilities. I love turning ideas into real-world projects and continuously learning new things.</p>
 
             <motion.ul
              initial = {{opacity:0}}
