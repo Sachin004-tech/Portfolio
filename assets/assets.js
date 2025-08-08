@@ -26,7 +26,7 @@ import express from './express.png';
 import right_arrow_white from './right-arrow-white.png';
 import logo from './logo.png';
 import logo_dark from './logo_dark.png';
-import portfolio from './portfolio.png';
+// import portfolio from './portfolio.png';
 import portfolio_whte from './portfolio_whte.webp';
 // import portfolio_dark from './portfolio_dark.png';
 import mail_icon from './mail_icon.png';
@@ -84,7 +84,7 @@ export const assets = {
     right_arrow_white,
     // logo,
     // logo_dark,
-    portfolio,
+    // portfolio,
     // portfolio_dark,
     portfolio_whte,
     mail_icon,
