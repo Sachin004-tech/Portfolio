@@ -18,29 +18,7 @@
 
 
 @import "tailwindcss";
-@custom-variant dark (&:where(.dark, .dark *));
 
-/* @theme{
-  --color-primary: #3b82f6;
-  --color-primary-dark: #0d0d0d;
-} */
-:root {
-  --color-lightHover: #fcf4ff;
-  --color-darkHover: #2a004a;
-  --color-darkTheme: #11001F;
-  --font-outfit: Outfit, sans-serif;
-  --font-ovo: Ovo, serif;
-  --box-shadow-black: 4px 4px 0 #000;
-  --box-shadow-white: 4px 4px 0 #fff;
-  --grid-template-columns-auto: repeat(auto-fit, minmax(200px, 1fr));
-  --bg: #ffffff;
-  --text: #000000;
-}
-
-.dark-mode {
-  --bg: #000000;
-  --text: #ffffff;
-}
 
 
 * {
